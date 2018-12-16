@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Meme</title>
+</head>
+<body>
+    <h1>Nazwa mema to:</h1>
+    <p th:text="${meme.getName()}"</p>
+    <h2>Obrazek to:</h2>>
+    <img th:src="${meme.getImageUrl()}" />
+
+</body>
+</html>
